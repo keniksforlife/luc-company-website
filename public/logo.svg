@@ -2,14 +2,18 @@
   <defs>
     <linearGradient id="ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#22d3ee" />
-      <stop offset="100%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0f4ff" />
+      <stop offset="100%" stop-color="#c7d2fe" />
     </linearGradient>
   </defs>
   <!-- Icon -->
-  <path d="M 50 15 L 80 85 L 65 85 L 50 45 L 35 85 L 20 85 Z" fill="url(#ai-grad)" />
-  <circle cx="70" cy="30" r="8" fill="#a855f7" />
-  
+  <path d="M 50 12 L 82 88 L 66 88 L 50 44 L 34 88 L 18 88 Z" fill="url(#ai-grad)" />
+  <circle cx="71" cy="28" r="9" fill="#a855f7" opacity="0.9" />
+
   <!-- Text -->
-  <text x="100" y="62" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="36" fill="#0f172a">AI Consulting</text>
-  <text x="102" y="82" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#64748b" letter-spacing="3">PLATFORM</text>
+  <text x="100" y="62" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="36" fill="url(#text-grad)">AI Consulting</text>
+  <text x="102" y="82" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#6366f1" letter-spacing="3">PLATFORM</text>
 </svg>
