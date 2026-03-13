@@ -1,0 +1,22 @@
+2026-03-13T07:21:05Z INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee, are subject to the Cloudflare Online Services Terms of Use (https://www.cloudflare.com/website-terms/), and Cloudflare reserves the right to investigate your use of Tunnels for violations of such terms. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+2026-03-13T07:21:05Z INF Requesting new quick Tunnel on trycloudflare.com...
+2026-03-13T07:21:10Z INF +--------------------------------------------------------------------------------------------+
+2026-03-13T07:21:10Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+2026-03-13T07:21:10Z INF |  https://imagination-export-tumor-addressing.trycloudflare.com                             |
+2026-03-13T07:21:10Z INF +--------------------------------------------------------------------------------------------+
+2026-03-13T07:21:10Z INF Version 2026.3.0 (Checksum 0755ba4cbab59980e6148367fcf53a8f3ec85a97deefd63c2420cf7850769bee)
+2026-03-13T07:21:10Z INF GOOS: linux, GOVersion: go1.24.13, GoArch: arm64
+2026-03-13T07:21:10Z INF Settings: map[cred-file:/home/kent_luckykeniks_com/.cloudflared/c4794fe0-2580-4d6b-8599-5721497ac552.json credentials-file:/home/kent_luckykeniks_com/.cloudflared/c4794fe0-2580-4d6b-8599-5721497ac552.json ha-connections:1 protocol:quic url:http://localhost:8080]
+2026-03-13T07:21:10Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-13T07:21:10Z INF Generated Connector ID: cf3c6b84-7932-4e8b-a20c-b9233662a9e1
+2026-03-13T07:21:10Z INF Initial protocol quic
+2026-03-13T07:21:10Z INF ICMP proxy will use 10.148.0.2 as source for IPv4
+2026-03-13T07:21:10Z INF ICMP proxy will use fe80::4001:aff:fe94:2 in zone enp0s0 as source for IPv6
+2026-03-13T07:21:10Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="Group ID 773198025 is not between ping group 1 to 0"
+2026-03-13T07:21:10Z WRN ICMP proxy feature is disabled error="cannot create ICMPv4 proxy: Group ID 773198025 is not between ping group 1 to 0 nor ICMPv6 proxy: socket: permission denied"
+2026-03-13T07:21:10Z INF ICMP proxy will use 10.148.0.2 as source for IPv4
+2026-03-13T07:21:10Z INF ICMP proxy will use fe80::4001:aff:fe94:2 in zone enp0s0 as source for IPv6
+2026-03-13T07:21:10Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2026-03-13T07:21:10Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.192.107
+2026/03/13 07:21:10 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 7168 kiB, got: 416 kiB). See https://github.com/quic-go/quic-go/wiki/UDP-Buffer-Sizes for details.
+2026-03-13T07:21:11Z INF Registered tunnel connection connIndex=0 connection=c178e677-5bb1-4058-a6b0-4338c0c94b1d event=0 ip=198.41.192.107 location=sin21 protocol=quic
